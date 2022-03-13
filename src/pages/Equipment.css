@@ -1,0 +1,52 @@
+.Conter{
+  width: 100%;
+}
+ .bigBox{
+   width: 98%;
+   height: 90vh;
+   padding: 10px;
+   margin:  0 auto;
+   border-radius: 10px;
+   display: flex;
+   justify-content: space-between;
+ }
+ 
+ .bigBox .common{
+   width: 32.5%;
+   height:100%;
+   background-image: url(../assets/bg.png);
+   background-repeat: no-repeat;
+   background-size: 100% 103%;
+   background-position: center;
+   color: #fff;
+  
+ }
+.common{
+  padding: 15px;
+  overflow: hidden;
+}
+.TableColor{
+  margin-top: 10px;
+}
+.titleHeader{
+   text-align: center
+}
+.titleHeader .FontColor{
+  color: red;
+  font-weight: bold;
+  padding: 0 5px;
+}
+
+:global(.ant-table-thead > tr > th){
+  background-color: rgba(55, 204, 72, 0.5);
+  font-weight: bold;
+  font-size: 18px;
+  color: #d6d6d6;
+}
+
+:global(.replceClor){
+background: #b0c4a7;
+color: #000;
+line-height: 35px;
+}
+

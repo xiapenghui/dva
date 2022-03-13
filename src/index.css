@@ -1,0 +1,9 @@
+/* @import '~antd/dist/antd.css'; */
+html, body, :global(#root) {
+  height: 100%;
+  background-color: #000;
+}
+
+
+
+

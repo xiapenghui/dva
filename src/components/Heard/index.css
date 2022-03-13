@@ -1,0 +1,33 @@
+  .header{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 6.5vh;
+    line-height: 6.5vh;
+    margin-bottom: 15px;
+    color: #37CC48;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: .1rem;
+  }
+  .header .logoImg{
+    width: auto;
+    height: 6.5vh;
+  }
+  .header .logoTitle{
+      margin: 0;
+  }
+  
+  .header .line{
+    position: absolute;
+    top: 6.3vh;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-image: url(../../assets/kb_top_logo_line1.png);
+    background-position: center;
+    background-size: contain;
+  }
+  

@@ -1,0 +1,26 @@
+
+ .TableColor{
+   width: 98%;
+   height: 90vh;
+   padding: 20px;
+   margin:  0 auto;
+   border-radius: 10px;
+   background-image: url(../assets/bg.png);
+   background-repeat: no-repeat;
+   background-size: 120% 102%;
+   background-position: center;
+ }
+ 
+ 
+:global(.ant-table-thead > tr > th){
+    background-color: rgba(55, 204, 72, 0.5);
+    font-size: 18px;
+    font-weight: bold;
+    color: #d6d6d6;
+ }
+
+ :global(.replceClor){
+  background: #b0c4a7;
+  color: #000;
+}
+

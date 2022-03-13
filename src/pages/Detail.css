@@ -1,0 +1,25 @@
+.Conter{
+  width: 100%;
+}
+ .bigBox{
+   width: 98%;
+   height: 90vh;
+   padding: 10px;
+   margin:  0 auto;
+   border-radius: 10px;
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+ }
+ .Detaliecharts{
+  width: 49%;
+  height: calc(50% - 15px);
+  background-image: url(../assets/bg.png);
+  background-repeat: no-repeat;
+  background-size: 120% 102%;
+  background-position: center;
+ }
+ .Detaliecharts:nth-child(1),
+ .Detaliecharts:nth-child(2){
+   margin-bottom: 30px;
+ }
