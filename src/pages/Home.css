@@ -24,3 +24,10 @@
   color: #000;
 }
 
+:global(.ant-btn-danger){
+  background-color: red;
+}
+
+:global(.ant-btn-primary){
+  background-color: green;
+}

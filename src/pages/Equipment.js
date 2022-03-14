@@ -12,90 +12,90 @@ const dataSource = [
     key: '1',
     name: 'NE-WS09000 T5 梅兰日标签移门',
     image: 32,
-    status: '西湖区湖底公园1号',
-    mesLine: '西湖区湖底公园1号',
-    mesAfter: '西湖区湖底公园1号',
+    status: '1',
+    mesLine: '2',
+    mesAfter: '2',
     time: '2022-03-10 12:00:00',
   },
   {
     key: '2',
     name: 'NE-WS09000 T5 梅兰日标签移门',
     image: 32,
-    status: '西湖区湖底公园1号',
-    mesLine: '西湖区湖底公园1号',
-    mesAfter: '西湖区湖底公园1号',
+    status: '1',
+    mesLine: '2',
+    mesAfter: '2',
     time: '2022-03-10 12:00:00',
   },
   {
-    key: '2',
+    key: '3',
     name: 'NE-WS09000 T5 梅兰日标签移门',
     image: 32,
-    status: '西湖区湖底公园1号',
-    mesLine: '西湖区湖底公园1号',
-    mesAfter: '西湖区湖底公园1号',
+    status: '1',
+    mesLine: '2',
+    mesAfter: '1',
     time: '2022-03-10 12:00:00',
   },
   {
-    key: '2',
+    key: '4',
     name: 'NE-WS09000 T5 梅兰日标签移门',
     image: 32,
-    status: '西湖区湖底公园1号',
-    mesLine: '西湖区湖底公园1号',
-    mesAfter: '西湖区湖底公园1号',
+    status: '1',
+    mesLine: '2',
+    mesAfter: '1',
     time: '2022-03-10 12:00:00',
   },
   {
-    key: '2',
+    key: '5',
     name: 'NE-WS09000 T5 梅兰日标签移门',
     image: 32,
-    status: '西湖区湖底公园1号',
-    mesLine: '西湖区湖底公园1号',
-    mesAfter: '西湖区湖底公园1号',
+    status: '2',
+    mesLine: '2',
+    mesAfter: '2',
     time: '2022-03-10 12:00:00',
   },
   {
-    key: '2',
+    key: '6',
     name: 'NE-WS09000 T5 梅兰日标签移门',
     image: 32,
-    status: '西湖区湖底公园1号',
-    mesLine: '西湖区湖底公园1号',
-    mesAfter: '西湖区湖底公园1号',
+    status: '1',
+    mesLine: '2',
+    mesAfter: '2',
     time: '2022-03-10 12:00:00',
   },
   {
-    key: '2',
+    key: '7',
     name: 'NE-WS09000 T5 梅兰日标签移门',
     image: 32,
-    status: '西湖区湖底公园1号',
-    mesLine: '西湖区湖底公园1号',
-    mesAfter: '西湖区湖底公园1号',
+    status: '1',
+    mesLine: '2',
+    mesAfter: '2',
     time: '2022-03-10 12:00:00',
   },
   {
-    key: '2',
+    key: '8',
     name: 'NE-WS09000 T5 梅兰日标签移门',
     image: 32,
-    status: '西湖区湖底公园1号',
-    mesLine: '西湖区湖底公园1号',
-    mesAfter: '西湖区湖底公园1号',
+    status: '1',
+    mesLine: '2',
+    mesAfter: '2',
     time: '2022-03-10 12:00:00',
   },
   {
-    key: '2',
+    key: '9',
     name: 'NE-WS09000 T5 梅兰日标签移门',
     image: 32,
-    status: '西湖区湖底公园1号',
-    mesLine: '西湖区湖底公园1号',
-    mesAfter: '西湖区湖底公园1号',
+    status: '1',
+    mesLine: '2',
+    mesAfter: '2',
     time: '2022-03-10 12:00:00',
   },
   {
-    key: '2',
+    key: '10',
     name: 'NE-WS09000 T5 梅兰日标签移门',
     image: 32,
-    status: '西湖区湖底公园1号',
-    mesLine: '西湖区湖底公园1号',
-    mesAfter: '西湖区湖底公园1号',
+    status: '1',
+    mesLine: '2',
+    mesAfter: '2',
     time: '2022-03-10 12:00:00',
   },
  
@@ -109,6 +109,7 @@ const columns = [
     align: "center",
     ellipsis: true,
     className: 'replceClor',
+    width:300
   },
   {
     title: '设备状态',
@@ -117,6 +118,13 @@ const columns = [
     align: "center",
     ellipsis: true,
     className: 'replceClor',
+    render: (text, record) => {
+      if (text == 1) {
+        return <Button type="primary" shape="circle" size="small"/>
+      } else if (text == 2) {
+        return <Button type="danger" shape="circle" size="small"/>
+      }
+    }
   },
   {
     title: 'MES链接',
@@ -125,6 +133,13 @@ const columns = [
     align: "center",
     ellipsis: true,
     className: 'replceClor',
+    render: (text, record) => {
+      if (text == 1) {
+        return <Button type="primary" shape="circle" size="small"/>
+      } else if (text == 2) {
+        return <Button type="danger" shape="circle" size="small"/>
+      }
+    }
   }
 ]
 
